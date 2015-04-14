@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Push snap-switch'
+      'command': 'snap-switch:push'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'snap-switch'
+      'submenu': [
+        {
+          'label': 'Push'
+          'command': 'snap-switch:push'
+        }
+      ]
+    ]
+  }
+]

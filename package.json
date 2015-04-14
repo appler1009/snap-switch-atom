@@ -1,0 +1,14 @@
+{
+  "name": "snap-switch",
+  "main": "./lib/snap-switch",
+  "version": "0.1.0",
+  "description": "Pushing information about editor tabs to the local SnapSwitch.",
+  "repository": "https://github.com/cheolgookang/snap-switch",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "dependencies": {
+    "request": "^2.55.0"
+  }
+}
